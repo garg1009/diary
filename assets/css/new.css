@@ -1,0 +1,171 @@
+
+.hero-container h1 span{
+    color: #F5BD1F;
+    
+}
+.course h1{
+  color: var(--main-cl);
+  /* border-radius: 50px; */
+background: #ffffff;
+box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+.card{
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    /* box-shadow: 0 0 4px 4px whitesmoke; */
+    border-radius: 10px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  20px 20px 60px #d9d9d9,
+                 -20px -20px 60px #ffffff;
+}
+.card:hover{
+  
+    /* box-shadow: 0 0 5px 4px var(--main-cl); */
+    transform: scale(1.04);
+
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+/* ****** about  */
+
+.about {
+    background-color: #fff;
+    padding-top: 95px;
+}
+
+.about .titlepage {
+    text-align: left;
+    margin-top: 41%;
+    padding-bottom: 0;
+    margin-right: -20px;
+}
+
+.about .titlepage h2 {
+    margin-bottom: 35px;
+}
+
+.about .titlepage p {
+    font-weight: 300;
+    color: #2e2d2d;
+    font-size: 17px;
+    line-height: 31px;
+    padding-bottom: 35px;
+}
+
+.about_img {
+    position: relative;
+    padding: 40px 30px 45px 30px;
+    z-index: 11;
+    
+}
+
+.about_img::before {
+    position: absolute;
+    content: "";
+    background: var(--main-cl);
+    top: -34px;
+    height: 100%;
+    width: 560px;
+    right: 0;
+    border-radius: 5px;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+    z-index: 9999;
+    position: relative;
+}
+
+
+/** end about section **/
+
+/** contact section **/
+
+.contact {
+    background: var(--main-cl);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 90px;
+    padding: 80px 0;
+    margin-bottom: 90px;
+}
+
+.contact .titlepage {
+    text-align: left;
+}
+
+.contact .titlepage h2 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.main_form .contactus {
+    border: #fff solid 1px;
+    padding: 0 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 54px;
+    background: #fff;
+    color: #989696;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.main_form .textarea {
+    border: #fff solid 1px;
+    margin-bottom: 25px;
+    width: 100%;
+    background: #fff;
+    color: #989696;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 35px 15px 0 15px;
+    height: 107px;
+    border-radius: 5px;
+}
+
+.main_form .send_btn {
+    font-size: 22px;
+    transition: ease-in all 0.5s;
+    background-color: transparent;
+    border: #fff solid 3px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 0px;
+    max-width: 150px;
+    width: 100%;
+    display: block;
+    margin-top: 10px !important;
+    font-weight: 500;
+}
+
+.main_form .send_btn:hover {
+    background-color: #2a2b2a;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: #989696;
+    opacity: 1;
+}
+
+/* *************** Team  */
+
+
+/* *************** Team end */
